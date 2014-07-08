@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#B39EB5"
+    tools:context=".ProductActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#66ffffff"
+        android:gravity="center"
+        android:shadowColor="#999999"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="Welcome back Graham,\n here is an offer for you"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+    
+	<TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#66ffffff"
+        android:gravity="center"
+        android:shadowColor="#999999"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="Get this T-Shirt 20% off"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+	
+	
+	<ImageView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/tshirt"
+	    android:layout_above="@+id/textView2"
+	    android:layout_below="@+id/textView1"/>
+    
+</RelativeLayout>
